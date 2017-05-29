@@ -19,6 +19,7 @@ install:
   - wget http://scip.zib.de/download/release/scipoptheaders-$VERSION.tgz
   - tar xvf scipoptheaders-$VERSION.tgz
   - ls -la
+  - ls /home/travis/scipdir/include
   - cd ..
   - env SCIPOPTDIR=~/scipdir python setup.py install
 
