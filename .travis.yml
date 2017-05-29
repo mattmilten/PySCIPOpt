@@ -17,7 +17,8 @@ install:
   - mkdir lib
   - mv libscipopt-$VERSION.linux.x86_64.gnu.opt.so lib/libscipopt.so
   - wget http://scip.zib.de/download/release/scipoptheaders-$VERSION.tgz
-  - tar xf scipoptheaders-$VERSION.tgz
+  - tar xvf scipoptheaders-$VERSION.tgz
+  - ls -la
   - cd ..
   - env SCIPOPTDIR=~/scipdir python setup.py install
 
