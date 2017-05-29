@@ -9,7 +9,7 @@ notifications:
 
 install:
   - export VERSION=4.0.0
-  - pip install cython networkx\
+  - pip install cython networkx
   - mkdir scipdir
   - cd scipdir
   - wget http://scip.zib.de/download/release/libscipopt-$VERSION.linux.x86_64.gnu.opt.so.zip
@@ -18,8 +18,9 @@ install:
   - mv libscipopt-$VERSION.linux.x86_64.gnu.opt.so lib/libscipopt.so
   - wget http://scip.zib.de/download/release/scipoptheaders-$VERSION.tgz
   - tar xvf scipoptheaders-$VERSION.tgz
+  - pwd
   - ls -la
-  - ls /home/travis/scipdir/include
+  - ls -la /home/travis/scipdir
   - cd ..
   - env SCIPOPTDIR=~/scipdir python setup.py install
 
