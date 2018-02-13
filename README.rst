@@ -10,7 +10,11 @@ to the `SCIP Optimization Suite <http://scip.zib.de>`__.
 
 .. raw:: html
 
-    <iframe width="400" height="400" frameborder="0" scrolling="no" src="//plot.ly/~mattmilten/81.embed"></iframe>
+    <div>
+    <a href="https://plot.ly/~mattmilten/81/?share_key=MMyMrp0fZEakmWxZ5VZiUH" target="_blank" title="Plot 81" style="display: block; text-align: center;"><img src="https://plot.ly/~mattmilten/81.png?share_key=MMyMrp0fZEakmWxZ5VZiUH" alt="Plot 81" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="mattmilten:81" sharekey-plotly="MMyMrp0fZEakmWxZ5VZiUH" src="https://plot.ly/embed.js" async></script>
+    </div>
+
 
 
 
