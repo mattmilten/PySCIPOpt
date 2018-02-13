@@ -10,7 +10,7 @@ to the `SCIP Optimization Suite <http://scip.zib.de>`__.
 
 .. raw:: html
 
-    <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mattmilten/81.embed"></iframe>
+    <iframe width="400" height="400" frameborder="0" scrolling="no" src="//plot.ly/~mattmilten/81.embed"></iframe>
 
 
 
